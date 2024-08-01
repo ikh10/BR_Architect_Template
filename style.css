@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    margin: 15px 0;
+    color: black;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+hr{
+    border-bottom: 1px solid #f1f1f1;
+}
+
+header{
+    top: 0px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff ;
+    color: #000;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    letter-spacing: 4px;
+}
+.top{
+    padding: 8px 16px;
+}
+
+/* container */
+.container{
+    position: relative;
+}
+
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    letter-spacing: 4px;
+}
+
+.head h1{
+    color: #f1f1f1 ;
+    font-size: 36px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.head .br{
+    background-color: #000;
+    padding: 8px 16px;
+    opacity: 0.75;
+}
+
+/* content */
+.page{
+    padding: 8px 16px ;
+}
+
+.sec{
+    padding: 32px 16px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.top-p{
+    display: flex;
+}
+
+.house{
+    padding: 0 8px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.place{
+    color: #fff ;
+    background-color: #000 ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 8px 16px;
+    margin: 0 8px;
+}
+
+/* about */
+.team{
+    filter: grayscale(75%);
+    display: flex;
+}
+
+.mem{
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.post{
+    opacity: 0.60;
+}
+
+.mem button{
+    color: #000 ;
+    background-color: #f1f1f1 ;
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    font: inherit;
+}
+
+/* contact */
+form{
+    padding:0 16px 32px 16px;
+}
+
+.contact .sec{
+    padding-bottom: 0px;
+}
+
+input{
+    padding: 8px;
+    width: 100%;
+    font: inherit;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+form button{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 8px 16px;
+    font: inherit;
+    margin: 16px 0;
+}
+
+.map{
+    padding: 0 16px;
+}
+
+footer{
+    background-color: #000;
+    padding: 48px;
+}
